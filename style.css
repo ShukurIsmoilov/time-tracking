@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Rubik, sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(226, 43%, 10%);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 100px auto 80px auto;
+    padding: 0 40px;
+    max-width: 960px;
+}
+
+.main-card {
+    min-width: 200px;
+    height: 400px;
+    margin: 0 20px 20px 0;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+}
+
+.main-card__top {
+    padding: 20px 20px 50px 20px;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 15px;
+}
+
+.top-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+    background: url('./images/image-jeremy.png') center no-repeat;
+    background-size: cover;
+}
+
+.top-reportFor {
+    color: hsl(236, 100%, 87%);
+    margin-bottom: 5px;
+}
+
+.top-name {
+    font-weight: 300;
+}
+
+.main-card__period-list {
+    margin: 20px 20px 0 20px;
+}
+
+.period-list__item {
+    margin-bottom: 20px;
+}
+
+.period-list__item a {
+    color: hsl(235, 45%, 61%);
+}
+
+.period-list__item a:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.task-container {
+    display: flex;
+    flex-flow: wrap;
+    max-width: 660px;
+}
+
+.card {
+    width: 200px;
+    height: 180px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: hsl(246, 80%, 60%);
+}
+
+.card-description {
+    width: 200px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+}
+
+.card-description:hover {
+    cursor: pointer;
+    background-color: hsl(235, 45%, 61%);
+}
+
+.card-description-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-description__more {
+    width: 23px;
+    height: 5px;
+    background: url('./images/icon-ellipsis.svg') center no-repeat;
+
+
+}
+.card-description__more:hover {
+    background: url('./images/icon-ellipsis-white.svg') left no-repeat;
+    cursor: pointer;
+}
+
+.card-description__duration {
+    margin-bottom: 5px;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.card-description__previousTime {
+    font-size: 12px;
+    color: hsl(235, 45%, 61%);
+}
+
+.work {
+    background: hsl(15, 100%, 70%) url('./images/icon-work.svg') 90% -5% no-repeat;
+    background-size: 70px;
+}
+
+.play {
+    background: hsl(195, 74%, 62%) url('./images/icon-play.svg') 90% -5% no-repeat;
+    background-size: 70px;
+}
+
+.study {
+    background: hsl(348, 100%, 68%) url('./images/icon-study.svg') 90% -5% no-repeat;
+    background-size: 70px;
+}
+
+.exercise {
+    background: hsl(145, 58%, 55%) url('./images/icon-exercise.svg') 90% 1% no-repeat;
+    background-size: 70px;
+}
+
+.social {
+    background: hsl(264, 64%, 52%) url('./images/icon-social.svg') 90% -18% no-repeat;
+    background-size: 70px;
+}
+
+.self-care {
+    background: hsl(43, 84%, 65%) url('./images/icon-self-care.svg') 90% -15% no-repeat;
+    background-size: 70px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
